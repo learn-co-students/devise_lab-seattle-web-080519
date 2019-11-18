@@ -31,6 +31,8 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem 'omniauth-facebook'
+
 group :development, :test do
   gem 'factory_bot_rails'
   gem 'rspec-rails'
